@@ -2,12 +2,8 @@ body {
     margin-top: 30px;
 }
 
-.app-store-logos {
-    width: 60%
-}
-
 .image {
-    width: 100%
+    width: 100%;
 }
 
 .sub-header {
@@ -20,9 +16,92 @@ body {
     justify-content: space-between;
 }
 
+#app-store-logos {
+    width: 60%;
+    max-width: 230px;
+}
+
+#phone-image {
+    max-width: 300px;
+}
+
+@media (max-width: 575px) {
+    body {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .center-image {
+        margin: 0 auto;
+    }
+
+    .container {
+        max-width: 500px;
+    }
+
+    .headline-row {
+        margin-top: 10px;
+    }
+
+    #app-store-logos {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+    body {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .center-image {
+        margin: 0 auto;
+    }
+
+    .container {
+        max-width: 500px;
+    }
+
+    .headline-row {
+        margin-top: 10px;
+    }
+
+    #app-store-logos {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .display-4 {
+        font-size: 35px;
+    }
+
+    #app-store-logos {
+        margin-bottom: 35px;
+        width: 70%;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) { 
 
     .display-4 {
-        font-size: 40px;
+        font-size: 42px;
     }
+
+    #app-store-logos {
+        margin-bottom: 45px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .display-4 {
+        font-size: 42px;
+    }
+
+    #app-store-logos {
+        margin-bottom: 45px;
+    }
+
 }
