@@ -1,13 +1,38 @@
 body {
     margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.col-padding {
+    padding: 0 20px;
+}
+
+.description-para {
+    font-weight: 500;
+    color: darkgrey;
+}
+
+.how-icon {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px;
+    display: block;
 }
 
 .image {
     width: 100%;
 }
 
+.jumbotron {
+    background-color: #f8f8f8;
+}
+
 .sub-header {
     font-size: 22px;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .top-left-col {
@@ -43,6 +68,10 @@ body {
         margin-top: 10px;
     }
 
+    .work-col {
+        margin-top: 20px;
+    }
+
     #app-store-logos {
         margin-bottom: 15px;
     }
@@ -66,6 +95,10 @@ body {
         margin-top: 10px;
     }
 
+    .work-col {
+        margin-top: 20px;
+    }
+
     #app-store-logos {
         margin-bottom: 15px;
     }
@@ -80,6 +113,10 @@ body {
     #app-store-logos {
         margin-bottom: 35px;
         width: 70%;
+    }
+
+    #feel-better-div {
+        padding-top: 20px;
     }
 }
 
