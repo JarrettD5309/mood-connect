@@ -1,0 +1,21 @@
+body {
+    margin-top: 30px;
+}
+
+.app-store-logos {
+    width: 60%
+}
+
+.image {
+    width: 100%
+}
+
+.sub-header {
+    font-size: 22px;
+}
+
+.top-left-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
