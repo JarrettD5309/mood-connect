@@ -1,6 +1,10 @@
 body {
     margin-top: 30px;
-    margin-bottom: 20px;
+}
+
+.brand-logos {
+    width: 80px;
+    padding: 0 8px;
 }
 
 .col-padding {
@@ -46,6 +50,11 @@ body {
     max-width: 230px;
 }
 
+#footer {
+    /* background-color: #09a1b8; */
+    background-color: #18b8d1;
+}
+
 #phone-image {
     max-width: 300px;
 }
@@ -54,6 +63,11 @@ body {
     body {
         margin-top: 20px;
         text-align: center;
+    }
+
+    .brand-logos {
+        width: 65px;
+        padding: 0 8px;
     }
 
     .center-image {
