@@ -86,6 +86,10 @@ body {
         margin-top: 20px;
     }
 
+    .top-left-col {
+        display: block;
+    }
+
     #app-store-logos {
         margin-bottom: 15px;
     }
@@ -111,6 +115,10 @@ body {
 
     .work-col {
         margin-top: 20px;
+    }
+
+    .top-left-col {
+        display: block;
     }
 
     #app-store-logos {
