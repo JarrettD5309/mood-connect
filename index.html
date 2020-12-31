@@ -21,25 +21,34 @@
 
 <body>
     <nav class="navbar navbar-expand-md navbar-light nav-margin">
-        <a class="navbar-brand" href="index.html"><img src="./assets/images/moodconnect-logo-svg.svg" class="nav-logo" alt="MoodConnect Logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="index.html"><img src="./assets/images/moodconnect-logo-svg.svg" class="nav-logo"
+                alt="MoodConnect Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
+
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aris-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aris-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarAboutMeMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About Us
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarAboutMeMenuLink">
+                        <li><a class="dropdown-item" href="#">About Us</a></li>
+                        <li><a class="dropdown-item" href="#">Founder</a></li>
+                        <li><a class="dropdown-item" href="#">Affiliates/Partners</a></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
-      </nav>
+    </nav>
     <div class="container mb-3">
         <div class="row justify-content-around">
             <div class="col-12 col-md-6 col-lg-5 top-left-col">
@@ -58,7 +67,8 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <p class='sub-header'>MoodConnect is a Mood Media app that connects you to how you are feeling and
+                        <p class='sub-header'>MoodConnect is a Mood Media app that connects you to how you are feeling
+                            and
                             others.</p>
                     </div>
                 </div>
@@ -70,39 +80,53 @@
                 </div> -->
             </div>
             <div class="col-12 col-md-4 col-lg-3">
-                <img class='image' id='phone-image' src="./assets/images/home-screen-phone.png"
-                    alt="MoodConnect App">
+                <img class='image' id='phone-image' src="./assets/images/home-screen-phone.png" alt="MoodConnect App">
             </div>
         </div>
     </div>
+    <div class="jumbotron jumbotron-fluid mood-blue">
+        <div class="container py-2">
+            <div class="row text-center py-5">
+                <h2>Available for download March 2021</h2>
+            </div>
+        </div>
+
+    </div>
     <div class="jumbotron jumbotron-fluid">
-        <div class="container mt-2">
+        <div class="container mt-4">
             <div class="row text-center">
                 <h1 class="display-4 mt-3">How Does MoodConnect Work?</h1>
             </div>
             <div class="row mt-4 pb-3">
                 <div class="col-12 col-md-6 col-lg-4 text-center">
-                    <img class='how-icon border' src="./assets/images/select1-crop-600.jpg"
-                        alt="How Are You Feeling?">
+                    <img class='how-icon' src="./assets/images/select1-crop-600.jpg" alt="How Are You Feeling?">
                     <div class="col-padding mt-2">
                         <h5>Select your emotion</h5>
-                        <p class='description-para'>MoodConnect asks the question "How are you feeling?" To answer this question, we offer core mood options: Happy, Sad, Angry, Calm, Stress. Then select what you would like to share with another connection. Your selection informs our AI of what resources or connections will accommodate your needs.</p>
+                        <p class='description-para'>MoodConnect asks the question "How are you feeling?" To answer this
+                            question, we offer core mood options: Happy, Sad, Angry, Calm, Stress. Then select what you
+                            would like to share with another connection. Your selection informs our AI of what resources
+                            or connections will accommodate your needs.</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 text-center work-col">
-                    <img class='how-icon border' src="./assets/images/connect2-crop-600.jpg"
+                    <img class='how-icon' src="./assets/images/connect2-crop-600.jpg"
                         alt="Let's You Connect with New People?">
                     <div class="col-padding mt-2">
                         <h5>Connect!</h5>
-                        <p class='description-para'>Once you select your emotion, you will have the option to connect with another user to have an anonymous text based chat. If you're not ready to connect with another person yet, that's o.k. We also have lots of great resources - such as guided meditations, breathing exercises, yoga classes, articles, and more for you to access.
+                        <p class='description-para'>Once you select your emotion, you will have the option to connect
+                            with another user to have an anonymous text based chat. If you're not ready to connect with
+                            another person yet, that's o.k. We also have lots of great resources - such as guided
+                            meditations, breathing exercises, yoga classes, articles, and more for you to access.
                         </p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-0 text-center work-col" id='feel-better-div'>
-                    <img class='how-icon border' src="./assets/images/feel-better1-crop-600.jpg" alt="Helps Reduce Stress">
+                    <img class='how-icon' src="./assets/images/feel-better1-crop-600.jpg" alt="Helps Reduce Stress">
                     <div class="col-padding mt-2">
                         <h5>Feel Better</h5>
-                        <p class='description-para'>After a person completes a connection or activity from the resources section, MoodConnect will ask the user: "How Are you Feeling Now?" MoodConnect's primary purpose is to help people feel better and live healthy and productive lives. </p>
+                        <p class='description-para'>After a person completes a connection or activity from the resources
+                            section, MoodConnect will ask the user: "How Are you Feeling Now?" MoodConnect's primary
+                            purpose is to help people feel better and live healthy and productive lives. </p>
                     </div>
                 </div>
             </div>
@@ -114,14 +138,18 @@
         </div>
         <div class='row mt-2'>
             <div class="col-12 text-center pb-2">
-                <a href="https://www.facebook.com/moodconnect" target="_blank"><img class='brand-logos' src="./assets/images/facebook.png" alt="Facebook Logo"></a>
-                <a href="https://twitter.com/MoodConnect" target="_blank"><img class='brand-logos' src="./assets/images/twitter.png" alt="Twitter Logo"></a>
-                <a href="https://www.instagram.com/moodconnect/" target="_blank"><img class='brand-logos' src="./assets/images/instagram.png" alt="Instagram Logo"></a>
-                <a href="https://www.linkedin.com/company/moodconnect/" target="_blank"><img class='brand-logos' src="./assets/images/linkedin.png" alt="LinkedIn Logo"></a>
+                <a href="https://www.facebook.com/moodconnect" target="_blank"><img class='brand-logos'
+                        src="./assets/images/facebook.png" alt="Facebook Logo"></a>
+                <a href="https://twitter.com/MoodConnect" target="_blank"><img class='brand-logos'
+                        src="./assets/images/twitter.png" alt="Twitter Logo"></a>
+                <a href="https://www.instagram.com/moodconnect/" target="_blank"><img class='brand-logos'
+                        src="./assets/images/instagram.png" alt="Instagram Logo"></a>
+                <a href="https://www.linkedin.com/company/moodconnect/" target="_blank"><img class='brand-logos'
+                        src="./assets/images/linkedin.png" alt="LinkedIn Logo"></a>
             </div>
         </div>
     </div>
-    <div class="jumbotron jumbotron-fluid" id='footer'>
+    <div class="jumbotron jumbotron-fluid mood-blue">
         <div class="container mt-4">
             <div class="row text-center pt-3">
                 <p>&#169 MoodConnect LLC 2020, All Rights Reserved.</p>
@@ -131,7 +159,9 @@
     </div>
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -3,6 +3,12 @@
     padding: 0 8px;
 }
 
+.btn-mood {
+    color: white;
+    background-color: #18b8d1;
+    border-color: #18b8d1;
+}
+
 .col-padding {
     padding: 0 20px;
 }
@@ -27,6 +33,10 @@
     background-color: #f8f8f8;
 }
 
+.mood-blue {
+    background-color: #18b8d1;
+}
+
 .nav-logo {
     height: 30px;
 }
@@ -44,6 +54,10 @@
     text-align: center;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .text-right {
     text-align: right;
 }
@@ -57,11 +71,6 @@
 #app-store-logos {
     width: 60%;
     max-width: 230px;
-}
-
-#footer {
-    /* background-color: #09a1b8; */
-    background-color: #18b8d1;
 }
 
 #phone-image {
