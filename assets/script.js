@@ -4,7 +4,7 @@ document.getElementById("contact-send-button").addEventListener("click", ()=>{
 });
 
 const sendMail = () => {
-    const email = 'jarrettdougherty@gmail.com';
+    const email = 'info@moodconnect.com';
     const userName = document.getElementById('contactName').value;
     const subject = `Contact MoodConnect. Message from ${userName}`;
     const emailBody = document.getElementById('contactBody').value;

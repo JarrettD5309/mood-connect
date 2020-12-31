@@ -1,3 +1,18 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-para {
+    font-size: 18px;
+    color: rgb(56, 56, 56);
+}
+
 .brand-logos {
     width: 70px;
     padding: 0 8px;
@@ -13,9 +28,18 @@
     padding: 0 20px;
 }
 
+.content {
+    flex: 1 0 auto;
+}
+
 .description-para {
     font-weight: 500;
     color: darkgrey;
+}
+
+.footer {
+    flex-shrink: 0;
+    color: white;
 }
 
 .how-icon {
@@ -31,6 +55,35 @@
 
 .jumbotron {
     background-color: #f8f8f8;
+}
+
+.link:link {
+    font-size: 18px;
+    color: #09a1b8;
+    text-decoration: none;
+}
+
+.link:visited {
+    font-size: 18px;
+    color: #09a1b8;
+    text-decoration: none;
+}
+
+.link:hover {
+    font-size: 18px;
+    color: #056877;
+    text-decoration: none;
+}
+
+.link:active {
+    font-size: 18px;
+    color: #056877;
+    text-decoration: none;
+}
+
+.mobile-image-display {
+    display: none;
+    max-width: 400px;
 }
 
 .mood-blue {
@@ -73,6 +126,14 @@
     max-width: 230px;
 }
 
+#media-image-mobile {
+    max-width: 270px;
+}
+
+#our-mission-mobile {
+    display: none;
+}
+
 #phone-image {
     max-width: 220px;
 }
@@ -102,8 +163,16 @@
         max-width: 500px;
     }
 
+    .desktop-image-display {
+        display: none;
+    }
+
     .headline-row {
         margin-top: 10px;
+    }
+
+    .mobile-image-display {
+        display: initial;
     }
 
     .work-col {
@@ -116,6 +185,14 @@
 
     #app-store-logos {
         margin-bottom: 15px;
+    }
+
+    #our-mission {
+        display: none;
+    }
+
+    #our-mission-mobile {
+        display: initial;
     }
 }
 
@@ -132,8 +209,16 @@
         max-width: 500px;
     }
 
+    .desktop-image-display {
+        display: none;
+    }
+
     .headline-row {
         margin-top: 10px;
+    }
+
+    .mobile-image-display {
+        display: initial;
     }
 
     .work-col {
@@ -146,6 +231,14 @@
 
     #app-store-logos {
         margin-bottom: 15px;
+    }
+
+    #our-mission {
+        display: none;
+    }
+
+    #our-mission-mobile {
+        display: initial;
     }
 
 }
