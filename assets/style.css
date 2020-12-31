@@ -126,6 +126,10 @@ body {
     max-width: 230px;
 }
 
+#founder-image-mobile {
+    max-width: 270px;
+}
+
 #media-image-mobile {
     max-width: 270px;
 }
