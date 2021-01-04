@@ -27,18 +27,18 @@ const sendMail = () => {
 
     document.getElementById('contact-send-button').innerText = 'SENT!';
 
-    axios({
-        url: 'https://formspree.io/f/xdoppvpp',
-        method: 'post',
-        headers: {
-            'Accept': 'application/json'
-        },
-        data: {
-            email: email,
-            name: userName,
-            message: emailBody
-        }
-    }).then((response) => { console.log(response); });
+    // axios({
+    //     url: 'https://formspree.io/f/xdoppvpp',
+    //     method: 'post',
+    //     headers: {
+    //         'Accept': 'application/json'
+    //     },
+    //     data: {
+    //         email: email,
+    //         name: userName,
+    //         message: emailBody
+    //     }
+    // }).then((response) => { console.log(response); });
 
 };
 
