@@ -28,7 +28,7 @@ const sendMail = () => {
     document.getElementById('contact-send-button').innerText = 'SENT!';
 
     // axios({
-    //     url: 'https://formspree.io/f/xdoppvpp',
+    //     url: 'https://formspree.io/f/meqpvqed',
     //     method: 'post',
     //     headers: {
     //         'Accept': 'application/json'
@@ -39,6 +39,11 @@ const sendMail = () => {
     //         message: emailBody
     //     }
     // }).then((response) => { console.log(response); });
+
+    document.getElementById('contactEmail').value = '';
+    document.getElementById('contactName').value = '';
+    document.getElementById('contactBody').value = '';
+
 
 };
 
@@ -63,7 +68,7 @@ const sendAffiliate = () => {
     document.getElementById('affiliate-send-button').innerText = 'SENT!';
 
     // axios({
-    //     url: 'https://formspree.io/f/mleoarrq',
+    //     url: 'https://formspree.io/f/xoqpyqjz',
     //     method: 'post',
     //     headers: {
     //         'Accept': 'application/json'
@@ -72,4 +77,12 @@ const sendAffiliate = () => {
     // }).then((response) => { 
     //     console.log(response);
     // });
+
+    document.getElementById('affiliateContactEmail').value = '';
+    document.getElementById('affiliateContactName').value = '';
+    document.getElementById('affiliateContactBody').value = '';
+    document.getElementById('affiliateContactBusiness').value = '';
+    document.getElementById('affiliateContactWebsite').value = '';
+    document.getElementById('affiliateContactService').value = '';
+
 };

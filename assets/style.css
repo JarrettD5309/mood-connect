@@ -47,6 +47,7 @@ body {
     width: 100%;
     max-width: 200px;
     display: block;
+    border-radius: 50%;
 }
 
 .image {
@@ -111,19 +112,10 @@ body {
     text-align: left;
 }
 
-.text-right {
-    text-align: right;
-}
-
 .top-left-col {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
-
-#app-store-logos {
-    width: 60%;
-    max-width: 230px;
 }
 
 #founder-image-mobile {
@@ -159,20 +151,12 @@ body {
         padding: 0 8px;
     }
 
-    .center-image {
-        margin: 0 auto;
-    }
-
     .container {
         max-width: 500px;
     }
 
     .desktop-image-display {
         display: none;
-    }
-
-    .headline-row {
-        margin-top: 10px;
     }
 
     .mobile-image-display {
@@ -185,10 +169,6 @@ body {
 
     .top-left-col {
         display: block;
-    }
-
-    #app-store-logos {
-        margin-bottom: 15px;
     }
 
     #our-mission {
@@ -205,20 +185,12 @@ body {
         text-align: center;
     }
 
-    .center-image {
-        margin: 0 auto;
-    }
-
     .container {
         max-width: 500px;
     }
 
     .desktop-image-display {
         display: none;
-    }
-
-    .headline-row {
-        margin-top: 10px;
     }
 
     .mobile-image-display {
@@ -231,10 +203,6 @@ body {
 
     .top-left-col {
         display: block;
-    }
-
-    #app-store-logos {
-        margin-bottom: 15px;
     }
 
     #our-mission {
@@ -252,11 +220,6 @@ body {
         font-size: 35px;
     }
 
-    #app-store-logos {
-        margin-bottom: 35px;
-        width: 70%;
-    }
-
     #feel-better-div {
         padding-top: 20px;
     }
@@ -268,9 +231,6 @@ body {
         font-size: 42px;
     }
 
-    #app-store-logos {
-        margin-bottom: 45px;
-    }
 }
 
 @media (min-width: 1200px) {
@@ -282,10 +242,6 @@ body {
     .nav-margin {
         margin-left: 40px;
         margin-right: 40px;
-    }
-
-    #app-store-logos {
-        margin-bottom: 45px;
     }
 
 }
