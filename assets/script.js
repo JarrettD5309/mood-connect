@@ -1,15 +1,75 @@
-document.getElementById("contact-send-button").addEventListener("click", ()=>{
-    console.log('submit');
-    sendMail();
+document.addEventListener("click", (event) => {
+    if (event.target.id === 'contact-send-button') {
+        console.log('submit-contact');
+        sendMail();
+    } else if (event.target.id === 'affiliate-send-button') {
+        sendAffiliate();
+    } else if (event.target.id === 'subscribe-button') {
+        document.getElementById('subscribe-button').innerText = 'Success!';
+    }
+
 });
 
+// const sendMail = () => {
+//     const email = 'info@moodconnect.com';
+//     const userName = document.getElementById('contactName').value;
+//     const subject = `Contact MoodConnect. Message from ${userName}`;
+//     const emailBody = document.getElementById('contactBody').value;
+
+//     const link = 'mailto:' + email + '?subject=' + subject + "&body=" + emailBody;
+
+//     window.location.href = link;
+// };
 const sendMail = () => {
-    const email = 'info@moodconnect.com';
+    const email = document.getElementById('contactEmail').value;
     const userName = document.getElementById('contactName').value;
-    const subject = `Contact MoodConnect. Message from ${userName}`;
     const emailBody = document.getElementById('contactBody').value;
 
-    const link = 'mailto:' + email + '?subject=' + subject + "&body=" + emailBody;
+    document.getElementById('contact-send-button').innerText = 'SENT!';
 
-    window.location.href = link;
+    axios({
+        url: 'https://formspree.io/f/xdoppvpp',
+        method: 'post',
+        headers: {
+            'Accept': 'application/json'
+        },
+        data: {
+            email: email,
+            name: userName,
+            message: emailBody
+        }
+    }).then((response) => { console.log(response); });
+
+};
+
+const sendAffiliate = () => {
+    console.log('submit-affiliate');
+    const email = document.getElementById('affiliateContactEmail').value;
+    const userName = document.getElementById('affiliateContactName').value;
+    const emailBody = document.getElementById('affiliateContactBody').value;
+    const businessName = document.getElementById('affiliateContactBusiness').value;
+    const website = document.getElementById('affiliateContactWebsite').value;
+    const businessType = document.getElementById('affiliateContactService').value;
+
+    const dataObj = {
+        email: email,
+        name: userName,
+        business_name: businessName,
+        website: website,
+        business_type: businessType,
+        message: emailBody
+    };
+
+    document.getElementById('affiliate-send-button').innerText = 'SENT!';
+
+    // axios({
+    //     url: 'https://formspree.io/f/mleoarrq',
+    //     method: 'post',
+    //     headers: {
+    //         'Accept': 'application/json'
+    //     },
+    //     data: dataObj
+    // }).then((response) => { 
+    //     console.log(response);
+    // });
 };
