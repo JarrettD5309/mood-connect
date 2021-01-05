@@ -10,6 +10,9 @@
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
@@ -38,8 +41,8 @@
                         <a class="nav-link" aris-current="page" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="about.html" id="navbarAboutMeMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle active" href="about.html" id="navbarAboutMeMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             About Us
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarAboutMeMenuLink">
@@ -52,11 +55,16 @@
             </div>
         </nav>
 
-        <div class="container mb-3">
-            <h1 class="display-4 text-center">Affiliates and Partners</h1>
+        <div class="container mb-3 mt-3">
+            <!-- <h1 class="display-4 text-center">Affiliates and Partners</h1> -->
             <div class='row'>
                 <div class='col-12 col-lg-10 offset-lg-1'>
-                    <img src="./assets/images/affiliates.jpg" alt="Computer Keyboard" class='image mt-2'>
+                    <div class='banner-container'>
+                        <img src="./assets/images/affiliates.jpg" alt="Computer Keyboard" class='image mt-2'>
+                        <h1 class="banner-text affiliate-banner-text-1">Affiliates</h1>
+                        <h1 class="banner-text affiliate-banner-text-2">and</h1>
+                        <h1 class="banner-text affiliate-banner-text-3">Partners</h1>
+                    </div>
                     <div class="row">
                         <div class="col-md col-12">
                             <div class='text-center mt-4'>
@@ -113,23 +121,29 @@
                         </div>
                         <div class="mb-3 text-left">
                             <label for="affiliateContactEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="affiliateContactEmail" placeholder="name@example.com">
+                            <input type="email" class="form-control" id="affiliateContactEmail"
+                                placeholder="name@example.com">
                         </div>
                         <div class="mb-3 text-left">
                             <label for="affiliateContactBusiness" class="form-label">Name of Business</label>
-                            <input type="text" class="form-control" id="affiliateContactBusiness" placeholder="Name of Business">
+                            <input type="text" class="form-control" id="affiliateContactBusiness"
+                                placeholder="Name of Business">
                         </div>
                         <div class="mb-3 text-left">
                             <label for="affiliateContactWebsite" class="form-label">Website</label>
-                            <input type="text" class="form-control" id="affiliateContactWebsite" placeholder="http://www.mybusiness.com">
+                            <input type="text" class="form-control" id="affiliateContactWebsite"
+                                placeholder="http://www.mybusiness.com">
                         </div>
                         <div class="mb-3 text-left">
-                            <label for="affiliateContactService" class="form-label">Type of Business/Service/Product</label>
-                            <input type="text" class="form-control" id="affiliateContactService" placeholder="Business/Service/Product">
+                            <label for="affiliateContactService" class="form-label">Type of
+                                Business/Service/Product</label>
+                            <input type="text" class="form-control" id="affiliateContactService"
+                                placeholder="Business/Service/Product">
                         </div>
                         <div class="mb-3 text-left">
                             <label for="affiliateContactBody" class="form-label">Message</label>
-                            <textarea class="form-control" id="affiliateContactBody" rows="3" maxlength="1300"></textarea>
+                            <textarea class="form-control" id="affiliateContactBody" rows="3"
+                                maxlength="1300"></textarea>
                         </div>
                         <button type="button" class="btn btn-mood" id="affiliate-send-button">Send</button>
                     </form>

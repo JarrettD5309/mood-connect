@@ -13,6 +13,31 @@ body {
     color: rgb(56, 56, 56);
 }
 
+.banner-container {
+    position: relative;
+    text-align: center;
+}
+
+.banner-text {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    /* letter-spacing: 1px; */
+    font-size: 50px;
+}
+
+.affiliate-banner-text-1 {
+    bottom: 40%;
+    left:58%;
+}
+.affiliate-banner-text-2 {
+    bottom: 22%;
+    left: 61%;
+}
+.affiliate-banner-text-3 {
+    bottom: 4%;
+    left: 64%;
+}
+
 .brand-logos {
     width: 70px;
     padding: 0 8px;
@@ -135,15 +160,86 @@ body {
 }
 
 @media (max-width: 400px) {
+    body {
+        text-align: center;
+    }
+
+    .banner-text {
+        font-size: 22px;
+    }
+
+    .affiliate-banner-text-1 {
+        bottom: 40%;
+        left:56%;
+    }
+    .affiliate-banner-text-2 {
+        bottom: 20%;
+        left: 59%;
+    }
+    .affiliate-banner-text-3 {
+        bottom: 0%;
+        left: 62%;
+    }
+
+    .brand-logos {
+        width: 65px;
+        padding: 0 8px;
+    }
+
+    .container {
+        max-width: 500px;
+    }
+
+    .desktop-image-display {
+        display: none;
+    }
+
+    .mobile-image-display {
+        display: initial;
+    }
+
     .nav-logo {
         height: 25px;
     }
 
+    .work-col {
+        margin-top: 20px;
+    }
+
+    .top-left-col {
+        display: block;
+    }
+
+    #our-mission {
+        display: none;
+    }
+
+    #our-mission-mobile {
+        display: initial;
+    }
+
 }
 
-@media (max-width: 575px) {
+@media (min-width:401px) and (max-width: 575px) {
     body {
         text-align: center;
+    }
+
+    .banner-text {
+        font-size: 26px;
+    }
+
+    .affiliate-banner-text-1 {
+        bottom: 40%;
+        left:58%;
+    }
+    .affiliate-banner-text-2 {
+        bottom: 21%;
+        left: 61%;
+    }
+    .affiliate-banner-text-3 {
+        bottom: 2%;
+        left: 64%;
     }
 
     .brand-logos {
@@ -185,6 +281,10 @@ body {
         text-align: center;
     }
 
+    .banner-text {
+        font-size: 30px;
+    }
+
     .container {
         max-width: 500px;
     }
@@ -216,6 +316,10 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .banner-text {
+        font-size: 44px;
+    }
+
     .display-4 {
         font-size: 35px;
     }
