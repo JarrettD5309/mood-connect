@@ -18,6 +18,10 @@ body {
     color: rgb(56, 56, 56);
 }
 
+.affiliate-icon {
+    width: 70%;
+}
+
 .banner-container {
     position: relative;
     text-align: center;
