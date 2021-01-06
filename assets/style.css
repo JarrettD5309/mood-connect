@@ -75,6 +75,21 @@ body {
     padding: 0 20px;
 }
 
+.contact-banner-text {
+    position: absolute;
+    font-family: 'PlayfairDisplay', serif;
+    letter-spacing: 1px;
+    font-size: 90px;
+    color: white;
+    transform: translate(-50%,-50%);
+}
+
+.contact-banner-text-1 {
+    left: 40%;
+    top: 22%;
+    white-space: nowrap;
+}
+
 .content {
     flex: 1 0 auto;
 }
@@ -236,6 +251,10 @@ body {
         padding: 0 8px;
     }
 
+    .contact-banner-text {
+        font-size: 40px;
+    }
+
     .container {
         max-width: 500px;
     }
@@ -320,6 +339,10 @@ body {
         padding: 0 8px;
     }
 
+    .contact-banner-text {
+        font-size: 46px;
+    }
+
     .container {
         max-width: 500px;
     }
@@ -380,6 +403,10 @@ body {
         top: 47%;
     }
 
+    .contact-banner-text {
+        font-size: 50px;
+    }
+
     .container {
         max-width: 500px;
     }
@@ -428,6 +455,10 @@ body {
         font-size: 70px;
     }
 
+    .contact-banner-text {
+        font-size: 70px;
+    }
+
     .display-4 {
         font-size: 35px;
     }
@@ -444,6 +475,10 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) { 
 
     .about-banner-text {
+        font-size: 75px;
+    }
+
+    .contact-banner-text {
         font-size: 75px;
     }
 
