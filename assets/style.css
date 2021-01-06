@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "PlayfairDisplay";
+	src: local("PlayfairDisplay"), url("./fonts/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+}
+
 html {
     height: 100%;
 }
@@ -20,9 +25,26 @@ body {
 
 .banner-text {
     position: absolute;
-    font-family: 'Playfair Display', serif;
-    /* letter-spacing: 1px; */
+    font-family: 'PlayfairDisplay', serif;
+    letter-spacing: 1px;
     font-size: 50px;
+}
+
+.about-banner-text {
+    position: absolute;
+    font-family: 'PlayfairDisplay', serif;
+    letter-spacing: 1px;
+    font-size: 90px;
+    color: white
+}
+
+.about-banner-text-1 {
+    left: 15%;
+    top: 26%;
+}
+.about-banner-text-2 {
+    left: 17%;
+    top: 46%;
 }
 
 .affiliate-banner-text-1 {
@@ -166,6 +188,21 @@ body {
 
     .banner-text {
         font-size: 22px;
+        letter-spacing: normal;
+    }
+
+    .about-banner-text {
+        font-size: 40px;
+    }
+
+    .about-banner-text-1 {
+        left: 15%;
+        top: 21%;
+    }
+    
+    .about-banner-text-2 {
+        left: 17%;
+        top: 49%;
     }
 
     .affiliate-banner-text-1 {
@@ -229,6 +266,20 @@ body {
         font-size: 26px;
     }
 
+    .about-banner-text {
+        font-size: 46px;
+    }
+
+    .about-banner-text-1 {
+        left: 15%;
+        top: 21%;
+    }
+
+    .about-banner-text-2 {
+        left: 17%;
+        top: 47%;
+    }
+
     .affiliate-banner-text-1 {
         bottom: 42%;
         left:58%;
@@ -285,6 +336,19 @@ body {
         font-size: 30px;
     }
 
+    .about-banner-text {
+        font-size: 50px;
+    }
+
+    .about-banner-text-1 {
+        left: 15%;
+        top: 25%;
+    }
+    .about-banner-text-2 {
+        left: 17%;
+        top: 47%;
+    }
+
     .container {
         max-width: 500px;
     }
@@ -320,6 +384,10 @@ body {
         font-size: 44px;
     }
 
+    .about-banner-text {
+        font-size: 70px;
+    }
+
     .display-4 {
         font-size: 35px;
     }
@@ -330,6 +398,10 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) { 
+
+    .about-banner-text {
+        font-size: 75px;
+    }
 
     .display-4 {
         font-size: 42px;
