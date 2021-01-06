@@ -129,6 +129,19 @@ body {
     text-decoration: none;
 }
 
+.media-banner-text {
+    position: absolute;
+    font-family: 'PlayfairDisplay', serif;
+    letter-spacing: 1px;
+    font-size: 90px;
+    color: white
+}
+
+.media-banner-text-1 {
+    right: 7%;
+    top: 10%;
+}
+
 .mobile-image-display {
     display: none;
     max-width: 400px;
@@ -231,6 +244,15 @@ body {
         display: none;
     }
 
+    .media-banner-text {
+        font-size: 40px;
+    }
+
+    .media-banner-text-1 {
+        right: 3%;
+        top: 5%;
+    }
+
     .mobile-image-display {
         display: initial;
     }
@@ -306,6 +328,15 @@ body {
         display: none;
     }
 
+    .media-banner-text {
+        font-size: 46px;
+    }
+
+    .media-banner-text-1 {
+        right: 4%;
+        top: 9%;
+    }
+
     .mobile-image-display {
         display: initial;
     }
@@ -357,6 +388,15 @@ body {
         display: none;
     }
 
+    .media-banner-text {
+        font-size: 50px;
+    }
+
+    .media-banner-text-1 {
+        right: 5%;
+        top: 10%;
+    }
+
     .mobile-image-display {
         display: initial;
     }
@@ -392,6 +432,10 @@ body {
         font-size: 35px;
     }
 
+    .media-banner-text {
+        font-size: 70px;
+    }
+
     #feel-better-div {
         padding-top: 20px;
     }
@@ -405,6 +449,10 @@ body {
 
     .display-4 {
         font-size: 42px;
+    }
+
+    .media-banner-text {
+        font-size: 75px;
     }
 
 }

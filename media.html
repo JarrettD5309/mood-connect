@@ -52,16 +52,25 @@
             </div>
         </nav>
 
-        <div class="container mb-3">
-            <h1 class="display-4 text-center">Media</h1>
+        <div class="container mb-3 mt-4">
             <div class='row'>
-                <div class='col-12 col-xl-10 offset-xl-1'>
-                    <div class='row mt-3'>
-                        <div class='col-12'>
-                            <img class='image mobile-image-display' id='media-image-mobile'
-                                src="./assets/images/media-crop.jpg" alt="Newspaper and Plants">
-                        </div>
-                        <div class='col-12 col-md-8 col-lg-8 mt-3 mt-md-0 text-left'>
+                <div class='col-12 col-lg-10 offset-lg-1'>
+                    <div class='banner-container'>
+                        <img 
+                            srcset="
+                                ./assets/images/media/media-4x.jpg 3200w,
+                                ./assets/images/media/media-3x.jpg 2400w,
+                                ./assets/images/media/media-2x.jpg 1600w,
+                                ./assets/images/media/media-1x.jpg 800w,
+                            "
+                            src="./assets/images/media/media-2x.jpg" 
+                            alt="Newspapers" 
+                            class='image mt-2'
+                        >
+                        <h1 class="media-banner-text media-banner-text-1">Media</h1>
+                    </div>
+                    <div class='row mt-5'>
+                        <div class='col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-left'>
                             <h5>Yahoo! Finance: 12 Women in Tech to Know in 2021</h5>
                             <p class='about-para mt-3 mt-md-0'>WASHINGTON, Dec. 18, 2020 /PRNewswire/</p>
                             <p class='about-para'>This year's rapidly changing circumstances have put technology
@@ -80,10 +89,6 @@
                             <hr>
                             <h5>Media Contacts</h5>
                             <p class='about-para'>For any media related inquiries, please contact info@moodconnect.com</p>
-                        </div>
-                        <div class='col-md-4 col-lg-4'>
-                            <img class='image desktop-image-display' src="./assets/images/media.jpg"
-                                alt="Newspaper and Plants">
                         </div>
                     </div>
                 </div>
