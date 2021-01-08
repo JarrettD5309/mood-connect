@@ -6,7 +6,7 @@ document.addEventListener("click", (event) => {
         sendAffiliate();
     } else if (event.target.id === 'subscribe-button') {
         document.getElementById('subscribe-button').innerText = 'Success!';
-    }
+    } 
 
 });
 
@@ -44,6 +44,7 @@ const sendMail = () => {
     document.getElementById('contactName').value = '';
     document.getElementById('contactBody').value = '';
 
+    window.location.href = 'thank-you-contact.html';
 
 };
 
@@ -84,5 +85,7 @@ const sendAffiliate = () => {
     document.getElementById('affiliateContactBusiness').value = '';
     document.getElementById('affiliateContactWebsite').value = '';
     document.getElementById('affiliateContactService').value = '';
+
+    window.location.href='thank-you-affiliate.html';
 
 };
