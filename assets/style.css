@@ -188,6 +188,10 @@ body {
     margin-right: 15px;
 }
 
+.phone-image {
+    max-width: 220px;
+}
+
 .sub-header {
     font-size: 22px;
 }
@@ -236,10 +240,6 @@ body {
 
 #our-mission-mobile {
     display: none;
-}
-
-#phone-image {
-    max-width: 220px;
 }
 
 @media (max-width: 400px) {
