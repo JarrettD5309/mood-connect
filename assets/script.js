@@ -25,7 +25,7 @@ const sendMail = () => {
     const userName = document.getElementById('contactName').value;
     const emailBody = document.getElementById('contactBody').value;
 
-    document.getElementById('contact-send-button').innerText = 'SENT!';
+    // document.getElementById('contact-send-button').innerText = 'SENT!';
 
     // axios({
     //     url: 'https://formspree.io/f/meqpvqed',
@@ -44,6 +44,7 @@ const sendMail = () => {
     document.getElementById('contactName').value = '';
     document.getElementById('contactBody').value = '';
 
+    // Inside axios???
     window.location.href = 'thank-you-contact.html';
 
 };
@@ -66,7 +67,7 @@ const sendAffiliate = () => {
         message: emailBody
     };
 
-    document.getElementById('affiliate-send-button').innerText = 'SENT!';
+    // document.getElementById('affiliate-send-button').innerText = 'SENT!';
 
     // axios({
     //     url: 'https://formspree.io/f/xoqpyqjz',
@@ -86,6 +87,7 @@ const sendAffiliate = () => {
     document.getElementById('affiliateContactWebsite').value = '';
     document.getElementById('affiliateContactService').value = '';
 
+    // Inside axios????
     window.location.href='thank-you-affiliate.html';
 
 };

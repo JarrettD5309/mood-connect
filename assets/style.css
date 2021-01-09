@@ -204,6 +204,36 @@ body {
     text-align: left;
 }
 
+.thank-you-contact-banner-text {
+    position: absolute;
+    font-family: 'PlayfairDisplay', serif;
+    letter-spacing: 1px;
+    font-size: 90px;
+    color: white;
+    transform: translate(-50%,-50%);
+}
+
+.thank-you-contact-banner-text-1 {
+    left: 34%;
+    top: 16%;
+    white-space: nowrap;
+}
+
+.thank-you-affiliate-banner-text {
+    position: absolute;
+    font-family: 'PlayfairDisplay', serif;
+    letter-spacing: 1px;
+    font-size: 90px;
+    color:black;
+    /* transform: translate(-50%,-50%); */
+}
+
+.thank-you-affiliate-banner-text-1 {
+    left: 32%;
+    bottom: 9%;
+    white-space: nowrap;
+}
+
 .top-left-col {
     display: flex;
     flex-direction: column;
@@ -313,6 +343,23 @@ body {
         height: 25px;
     }
 
+    .thank-you-affiliate-banner-text {
+        font-size: 30px;
+    }
+
+    .thank-you-affiliate-banner-text-1 {
+        bottom: 0%;
+        left: 18%;
+    }
+
+    .thank-you-contact-banner-text {
+        font-size: 40px;
+    }
+
+    .thank-you-contact-banner-text-1 {
+        top: 24%;
+    }
+
     .top-left-col {
         display: block;
     }
@@ -414,6 +461,23 @@ body {
         display: initial;
     }
 
+    .thank-you-affiliate-banner-text {
+        font-size: 36px;
+    }
+
+    .thank-you-affiliate-banner-text-1 {
+        bottom: 1%;
+        left: 21%;
+    }
+
+    .thank-you-contact-banner-text {
+        font-size: 46px;
+    }
+
+    .thank-you-contact-banner-text-1 {
+        top: 20%;
+    }
+
     .top-left-col {
         display: block;
     }
@@ -495,6 +559,14 @@ body {
         display: initial;
     }
 
+    .thank-you-affiliate-banner-text {
+        font-size: 44px;
+    }
+
+    .thank-you-contact-banner-text {
+        font-size: 50px;
+    }
+
     .top-left-col {
         display: block;
     }
@@ -538,6 +610,14 @@ body {
         font-size: 70px;
     }
 
+    .thank-you-affiliate-banner-text {
+        font-size: 58px;
+    }
+
+    .thank-you-contact-banner-text {
+        font-size: 70px;
+    }
+
     .work-banner-text {
         font-size: 58px;
     }
@@ -562,6 +642,14 @@ body {
     }
 
     .media-banner-text {
+        font-size: 75px;
+    }
+
+    .thank-you-affiliate-banner-text {
+        font-size: 75px;
+    }
+
+    .thank-you-contact-banner-text {
         font-size: 75px;
     }
 
