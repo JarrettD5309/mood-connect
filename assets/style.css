@@ -15,27 +15,6 @@ body {
     margin: 0 auto;
 }
 
-.about-para {
-    font-size: 18px;
-    color: rgb(56, 56, 56);
-}
-
-.affiliate-icon {
-    width: 70%;
-}
-
-.banner-container {
-    position: relative;
-    text-align: center;
-}
-
-.banner-text {
-    position: absolute;
-    font-family: 'PlayfairDisplay', serif;
-    letter-spacing: 1px;
-    font-size: 50px;
-}
-
 .about-banner-text {
     position: absolute;
     font-family: 'PlayfairDisplay', serif;
@@ -53,9 +32,22 @@ body {
     top: 46%;
 }
 
+.about-para {
+    font-size: 18px;
+    color: rgb(56, 56, 56);
+}
+
+.affiliate-banner-text {
+    position: absolute;
+    font-family: 'PlayfairDisplay', serif;
+    letter-spacing: 1px;
+    font-size: 74px;
+    white-space: nowrap;
+}
+
 .affiliate-banner-text-1 {
-    bottom: 44%;
-    left:58%;
+    bottom: 22%;
+    right:7%;
 }
 .affiliate-banner-text-2 {
     bottom: 26%;
@@ -64,6 +56,15 @@ body {
 .affiliate-banner-text-3 {
     bottom: 8%;
     left: 64%;
+}
+
+.affiliate-icon {
+    width: 70%;
+}
+
+.banner-container {
+    position: relative;
+    text-align: center;
 }
 
 .brand-logos {
@@ -248,7 +249,7 @@ body {
 }
 
 .work-banner-text-1 {
-    top:5%;
+    top:12%;
     left:10%
 }
 .work-banner-text-2 {
@@ -277,17 +278,13 @@ body {
         text-align: center;
     }
 
-    .banner-text {
+    .affiliate-banner-text {
         font-size: 22px;
         letter-spacing: normal;
     }
 
-    .about-banner-text {
-        font-size: 40px;
-    }
-
     .about-banner-text-1 {
-        left: 15%;
+        left: 6%;
         top: 21%;
     }
     
@@ -296,10 +293,15 @@ body {
         top: 49%;
     }
 
-    .affiliate-banner-text-1 {
-        bottom: 40%;
-        left:56%;
+    .affiliate-banner-text {
+        font-size: 19px;
     }
+
+    .affiliate-banner-text-1 {
+        bottom: 12%;
+        right:6%;
+    }
+
     .affiliate-banner-text-2 {
         bottom: 20%;
         left: 59%;
@@ -373,8 +375,8 @@ body {
     }
 
     .work-banner-text-1 {
-        top:3%;
-        left:10%
+        top:12%;
+        left:7%
     }
     .work-banner-text-2 {
         top: 19%;
@@ -400,16 +402,12 @@ body {
         text-align: center;
     }
 
-    .banner-text {
-        font-size: 26px;
-    }
-
     .about-banner-text {
         font-size: 46px;
     }
 
     .about-banner-text-1 {
-        left: 15%;
+        left: 10%;
         top: 21%;
     }
 
@@ -418,9 +416,13 @@ body {
         top: 47%;
     }
 
+    .affiliate-banner-text {
+        font-size: 22px;
+    }
+
     .affiliate-banner-text-1 {
-        bottom: 42%;
-        left:58%;
+        bottom: 12%;
+        right:6%;
     }
     .affiliate-banner-text-2 {
         bottom: 23%;
@@ -487,12 +489,12 @@ body {
     }
 
     .work-banner-text {
-        font-size: 36px;
+        font-size: 40px;
     }
 
     .work-banner-text-1 {
-        top:3%;
-        left:10%
+        top:12%;
+        left:8%
     }
     .work-banner-text-2 {
         top: 19%;
@@ -517,12 +519,12 @@ body {
         text-align: center;
     }
 
-    .banner-text {
-        font-size: 30px;
+    .affiliate-banner-text {
+        font-size: 35px;
     }
 
     .about-banner-text {
-        font-size: 50px;
+        font-size: 60px;
     }
 
     .about-banner-text-1 {
@@ -576,7 +578,7 @@ body {
     }
 
     .work-banner-text {
-        font-size: 45px;
+        font-size: 50px;
     }
 
     #our-mission {
@@ -590,12 +592,12 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .banner-text {
-        font-size: 44px;
+    .affiliate-banner-text {
+        font-size: 46px;
     }
 
     .about-banner-text {
-        font-size: 70px;
+        font-size: 80px;
     }
 
     .contact-banner-text {
@@ -619,7 +621,7 @@ body {
     }
 
     .work-banner-text {
-        font-size: 58px;
+        font-size: 64px;
     }
 
     #feel-better-div {
@@ -630,7 +632,11 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) { 
 
     .about-banner-text {
-        font-size: 75px;
+        font-size: 85px;
+    }
+
+    .affiliate-banner-text {
+        font-size: 60px;
     }
 
     .contact-banner-text {
@@ -654,7 +660,7 @@ body {
     }
 
     .work-banner-text {
-        font-size: 75px;
+        font-size: 80px;
     }
 
 }
