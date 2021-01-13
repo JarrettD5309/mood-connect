@@ -197,6 +197,19 @@ body {
     font-size: 22px;
 }
 
+.team-banner-text {
+    position: absolute;
+    font-family: 'PlayfairDisplay', serif;
+    letter-spacing: 1px;
+    font-size: 90px;
+    color: white
+}
+
+.team-banner-text-1 {
+    left: 14%;
+    top: 11%;
+}
+
 .text-center {
     text-align: center;
 }
@@ -283,6 +296,10 @@ body {
         letter-spacing: normal;
     }
 
+    .about-banner-text {
+        font-size: 36px;
+    }
+
     .about-banner-text-1 {
         left: 6%;
         top: 21%;
@@ -343,6 +360,10 @@ body {
 
     .nav-logo {
         height: 25px;
+    }
+
+    .team-banner-text {
+        font-size: 34px;
     }
 
     .thank-you-affiliate-banner-text {
@@ -463,6 +484,10 @@ body {
         display: initial;
     }
 
+    .team-banner-text {
+        font-size: 42px;
+    }
+
     .thank-you-affiliate-banner-text {
         font-size: 36px;
     }
@@ -561,6 +586,15 @@ body {
         display: initial;
     }
 
+    .team-banner-text {
+        font-size: 60px;
+    }
+
+    .team-banner-text-1 {
+        left: 14%;
+        top: 7%;
+    }
+
     .thank-you-affiliate-banner-text {
         font-size: 44px;
     }
@@ -612,6 +646,16 @@ body {
         font-size: 70px;
     }
 
+    .team-banner-text {
+        font-size: 75px;
+    }
+
+    .team-banner-text-1 {
+        left: 13%;
+        top: 6%;
+
+    }
+
     .thank-you-affiliate-banner-text {
         font-size: 58px;
     }
@@ -649,6 +693,10 @@ body {
 
     .media-banner-text {
         font-size: 75px;
+    }
+
+    .team-banner-text {
+        font-size: 85px;
     }
 
     .thank-you-affiliate-banner-text {
