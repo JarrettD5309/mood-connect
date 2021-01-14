@@ -27,10 +27,6 @@ body {
     left: 15%;
     top: 26%;
 }
-.about-banner-text-2 {
-    left: 17%;
-    top: 46%;
-}
 
 .about-para {
     font-size: 18px;
@@ -48,14 +44,6 @@ body {
 .affiliate-banner-text-1 {
     bottom: 22%;
     right:7%;
-}
-.affiliate-banner-text-2 {
-    bottom: 26%;
-    left: 61%;
-}
-.affiliate-banner-text-3 {
-    bottom: 8%;
-    left: 64%;
 }
 
 .affiliate-icon {
@@ -284,14 +272,6 @@ body {
     top:12%;
     left:10%
 }
-.work-banner-text-2 {
-    top: 20%;
-    left:13%;
-}
-.work-banner-text-3 {
-    top:35%;
-    left:16%;
-}
 
 #founder-image-mobile {
     max-width: 270px;
@@ -323,11 +303,6 @@ body {
         left: 6%;
         top: 21%;
     }
-    
-    .about-banner-text-2 {
-        left: 17%;
-        top: 49%;
-    }
 
     .affiliate-banner-text {
         font-size: 19px;
@@ -336,15 +311,6 @@ body {
     .affiliate-banner-text-1 {
         bottom: 12%;
         right:6%;
-    }
-
-    .affiliate-banner-text-2 {
-        bottom: 20%;
-        left: 59%;
-    }
-    .affiliate-banner-text-3 {
-        bottom: 0%;
-        left: 62%;
     }
 
     .brand-logos {
@@ -429,14 +395,6 @@ body {
         top:12%;
         left:7%
     }
-    .work-banner-text-2 {
-        top: 19%;
-        left:13%;
-    }
-    .work-banner-text-3 {
-        top:35%;
-        left:16%;
-    }
 
     #our-mission {
         display: none;
@@ -462,11 +420,6 @@ body {
         top: 21%;
     }
 
-    .about-banner-text-2 {
-        left: 17%;
-        top: 47%;
-    }
-
     .affiliate-banner-text {
         font-size: 22px;
     }
@@ -474,14 +427,6 @@ body {
     .affiliate-banner-text-1 {
         bottom: 12%;
         right:6%;
-    }
-    .affiliate-banner-text-2 {
-        bottom: 23%;
-        left: 61%;
-    }
-    .affiliate-banner-text-3 {
-        bottom: 4%;
-        left: 64%;
     }
 
     .brand-logos {
@@ -560,14 +505,6 @@ body {
         top:12%;
         left:8%
     }
-    .work-banner-text-2 {
-        top: 19%;
-        left:13%;
-    }
-    .work-banner-text-3 {
-        top:35%;
-        left:16%;
-    }
 
     #our-mission {
         display: none;
@@ -594,10 +531,6 @@ body {
     .about-banner-text-1 {
         left: 15%;
         top: 25%;
-    }
-    .about-banner-text-2 {
-        left: 17%;
-        top: 47%;
     }
 
     .contact-banner-text {
