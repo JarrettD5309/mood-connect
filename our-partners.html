@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+
+    <title>MoodConnect</title>
+</head>
+
+<body>
+    <div class="content">
+        <nav class="navbar navbar-expand-md navbar-light nav-margin">
+            <a class="navbar-brand" href="index.html"><img src="./assets/images/moodconnect-logo-svg.svg"
+                    class="nav-logo" alt="MoodConnect Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aris-current="page" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="about.html" id="navbarAboutMeMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarAboutMeMenuLink">
+                            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+                            <li><a class="dropdown-item" href="affiliates.html">Affiliates/Partners</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class='banner-container'>
+            <img 
+                srcset="
+                    ./assets/images/our-partners/our-partners-4x.jpg 3200w,
+                    ./assets/images/our-partners/our-partners-3x.jpg 2400w,
+                    ./assets/images/our-partners/our-partners-2x.jpg 1600w,
+                    ./assets/images/our-partners/our-partners-1x.jpg 800w,
+                "
+                src="./assets/images/our-partners/our-partners-2x.jpg" 
+                alt="Puzzle Pieces" 
+                class='image mt-2'
+            >
+            <h1 class="partners-banner-text partners-banner-text-1">Our Partners & Affiliates</h1>
+        </div>
+
+        <div class="container mt-4 mt-md-5">
+            <div class='row'>
+                <div class='col-12 col-lg-10 offset-lg-1'>
+                    <div class="row">
+                        <div class="col-md-5 col-12 text-center">
+                            <div class='mt-4'>
+                                <img src="./assets/images/partnersaffiliates/jivamukti-yoga-logo.png" alt="Jivamukti Yoga Logo" class='how-icon border'>
+                                <h4 class="mt-2 mb-3">Jivamukti Yoga</h4>
+                            </div>
+                            <p class='about-para'>As a path to enlightenment through compassion for all beings, Jivamukti Yoga is grounded in the original meaning of the Sanskrit word asana as “seat, connection” – relationship to the Earth. Earth implies all of life.</p>
+                        </div>
+                        <div class="col-2"></div>
+                        <div class="col-md-5 col-12 text-center">
+                            <div class='mt-4'>
+                                <img src="./assets/images/partnersaffiliates/rise-logo.png" alt="Rise Logo" class='how-icon border'>
+                                <h4 class="mt-2 mb-3">Rise Science</h4>
+                            </div>
+                            <p class='about-para'>Rise is a mobile app that uses data from your phone and/or wearable and biomathematical models from sleep science to learn your unique sleep biology. These models are widely accepted by researchers in the sleep science field, which is nearly 100 years old.</p>
+                        </div>
+                        <div class="col-md-5 col-12 text-center">
+                            <div class='mt-4'>
+                                <img src="./assets/images/partnersaffiliates/ucmh-logo.png" alt="Urgent Care for Mental Health Logo" class='how-icon border'>
+                                <h4 class="mt-2 mb-3">Urgent Care for Mental Health</h4>
+                            </div>
+                            <p class='about-para'>The Urgent Care for Mental Health program takes a unique approach to providing mental health care in our community.  The providers simply run their practice as they always have and see the patients the program generates.  In exchange for getting these referrals they agree to reserve several appointments per day to see Urgent Care for Mental Health patients.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="jumbotron jumbotron-fluid mood-blue">
+            <div class="container mt-4">
+                <div class="row text-center pt-3">
+                    <p>&#169 MoodConnect LLC 2020, All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <!-- Axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+
+</html>

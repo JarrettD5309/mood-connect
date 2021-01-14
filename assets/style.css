@@ -189,6 +189,25 @@ body {
     margin-right: 15px;
 }
 
+.partners-banner-text {
+    position: absolute;
+    font-family: 'PlayfairDisplay', serif;
+    letter-spacing: 1px;
+    font-size: 75px;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px 20px 14px 20px;
+    /* border-radius: 4px; */
+    text-align: left;
+}
+
+.partners-banner-text-1 {
+    /* left: 10%;
+    top: 11%; */
+    left: 5%;
+    top: 12%;
+}
+
 .phone-image {
     max-width: 220px;
 }
@@ -362,6 +381,17 @@ body {
         height: 25px;
     }
 
+    .partners-banner-text {
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .partners-banner-text-1 {
+        top: 13%;
+        left: 0;
+    }
+
     .team-banner-text {
         font-size: 34px;
     }
@@ -484,6 +514,15 @@ body {
         display: initial;
     }
 
+    .partners-banner-text {
+        font-size: 25px;
+    }
+
+    .partners-banner-text-1 {
+        left: 3%;
+        top: 11%;
+    }
+
     .team-banner-text {
         font-size: 42px;
     }
@@ -586,6 +625,10 @@ body {
         display: initial;
     }
 
+    .partners-banner-text {
+        font-size: 36px;
+    }
+
     .team-banner-text {
         font-size: 60px;
     }
@@ -646,6 +689,10 @@ body {
         font-size: 70px;
     }
 
+    .partners-banner-text {
+        font-size: 45px;
+    }
+
     .team-banner-text {
         font-size: 75px;
     }
@@ -653,7 +700,6 @@ body {
     .team-banner-text-1 {
         left: 13%;
         top: 6%;
-
     }
 
     .thank-you-affiliate-banner-text {
@@ -693,6 +739,10 @@ body {
 
     .media-banner-text {
         font-size: 75px;
+    }
+
+    .partners-banner-text {
+        font-size: 60px;
     }
 
     .team-banner-text {
