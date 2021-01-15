@@ -55,6 +55,13 @@ body {
     text-align: center;
 }
 
+.banner-fit {
+    object-fit: cover;
+    height: 50vh;
+    width: 100vw;
+    max-width: 1300px;
+}
+
 .brand-logos {
     width: 70px;
     padding: 0 8px;
