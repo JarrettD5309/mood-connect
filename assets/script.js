@@ -50,7 +50,7 @@ const sendMail = () => {
 };
 
 const sendAffiliate = () => {
-    console.log('submit-affiliate');
+    console.log('submit-affiliate test');
     const email = document.getElementById('affiliateContactEmail').value;
     const userName = document.getElementById('affiliateContactName').value;
     const emailBody = document.getElementById('affiliateContactBody').value;
