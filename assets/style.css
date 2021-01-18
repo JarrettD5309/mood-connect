@@ -254,8 +254,8 @@ body {
 }
 
 .thank-you-affiliate-banner-text-1 {
-    left: 32%;
-    bottom: 9%;
+    left: 34%;
+    bottom: 0%;
     white-space: nowrap;
 }
 
@@ -663,7 +663,12 @@ body {
     }
 
     .thank-you-affiliate-banner-text {
-        font-size: 58px;
+        font-size: 56px;
+    }
+
+    .thank-you-affiliate-banner-text-1 {
+        left: 32%;
+        bottom: 2%;
     }
 
     .thank-you-contact-banner-text {
@@ -721,7 +726,11 @@ body {
     }
 
     .thank-you-affiliate-banner-text {
-        font-size: 75px;
+        font-size: 64px;
+    }
+
+    .thank-you-affiliate-banner-text-1 {
+        left: 38%;
     }
 
     .thank-you-contact-banner-text {
