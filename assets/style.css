@@ -201,7 +201,7 @@ body {
 }
 
 .phone-image {
-    max-width: 220px;
+    max-width: 280px;
 }
 
 .sub-header {
@@ -279,6 +279,11 @@ body {
 
 #founder-image-mobile {
     max-width: 270px;
+}
+
+#learn-more-button {
+    font-size: 20px;
+    padding: 12px 20px;
 }
 
 #media-image-mobile {
@@ -633,7 +638,7 @@ body {
     }
 
     .display-4 {
-        font-size: 35px;
+        font-size: 44px;
     }
 
     .media-banner-text {
@@ -642,6 +647,10 @@ body {
 
     .partners-banner-text {
         font-size: 45px;
+    }
+
+    .sub-header {
+        font-size: 24px;
     }
 
     .team-banner-text {
@@ -692,7 +701,7 @@ body {
     }
 
     .display-4 {
-        font-size: 42px;
+        font-size: 50px;
     }
 
     .media-banner-text {
@@ -701,6 +710,10 @@ body {
 
     .partners-banner-text {
         font-size: 60px;
+    }
+
+    .sub-header {
+        font-size: 26px;
     }
 
     .team-banner-text {
@@ -731,12 +744,16 @@ body {
     }
 
     .display-4 {
-        font-size: 42px;
+        font-size: 50px;
     }
 
     .nav-margin {
         margin-left: 40px;
         margin-right: 40px;
+    }
+
+    .sub-header {
+        font-size: 29px;
     }
 
 }
