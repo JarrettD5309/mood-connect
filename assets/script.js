@@ -10,16 +10,6 @@ document.addEventListener("click", (event) => {
 
 });
 
-// const sendMail = () => {
-//     const email = 'info@moodconnect.com';
-//     const userName = document.getElementById('contactName').value;
-//     const subject = `Contact MoodConnect. Message from ${userName}`;
-//     const emailBody = document.getElementById('contactBody').value;
-
-//     const link = 'mailto:' + email + '?subject=' + subject + "&body=" + emailBody;
-
-//     window.location.href = link;
-// };
 const sendMail = () => {
     const email = document.getElementById('contactEmail').value;
     const userName = document.getElementById('contactName').value;
@@ -27,25 +17,25 @@ const sendMail = () => {
 
     // document.getElementById('contact-send-button').innerText = 'SENT!';
 
-    // axios({
-    //     url: 'https://formspree.io/f/meqpvqed',
-    //     method: 'post',
-    //     headers: {
-    //         'Accept': 'application/json'
-    //     },
-    //     data: {
-    //         email: email,
-    //         name: userName,
-    //         message: emailBody
-    //     }
-    // }).then((response) => { console.log(response); });
+    axios({
+        url: 'https://formspree.io/f/meqpvqed',
+        method: 'post',
+        headers: {
+            'Accept': 'application/json'
+        },
+        data: {
+            email: email,
+            name: userName,
+            message: emailBody
+        }
+    }).then((response) => { 
+        console.log(response); 
+        window.location.href = 'thank-you-contact.html';
+    });
 
     document.getElementById('contactEmail').value = '';
     document.getElementById('contactName').value = '';
     document.getElementById('contactBody').value = '';
-
-    // Inside axios???
-    window.location.href = 'thank-you-contact.html';
 
 };
 
@@ -69,16 +59,17 @@ const sendAffiliate = () => {
 
     // document.getElementById('affiliate-send-button').innerText = 'SENT!';
 
-    // axios({
-    //     url: 'https://formspree.io/f/xoqpyqjz',
-    //     method: 'post',
-    //     headers: {
-    //         'Accept': 'application/json'
-    //     },
-    //     data: dataObj
-    // }).then((response) => { 
-    //     console.log(response);
-    // });
+    axios({
+        url: 'https://formspree.io/f/xoqpyqjz',
+        method: 'post',
+        headers: {
+            'Accept': 'application/json'
+        },
+        data: dataObj
+    }).then((response) => { 
+        console.log(response);
+        window.location.href='thank-you-affiliate.html';
+    });
 
     document.getElementById('affiliateContactEmail').value = '';
     document.getElementById('affiliateContactName').value = '';
@@ -86,8 +77,4 @@ const sendAffiliate = () => {
     document.getElementById('affiliateContactBusiness').value = '';
     document.getElementById('affiliateContactWebsite').value = '';
     document.getElementById('affiliateContactService').value = '';
-
-    // Inside axios????
-    window.location.href='thank-you-affiliate.html';
-
 };
