@@ -103,6 +103,11 @@ body {
     color: white;
 }
 
+.footer-text {
+    background-color: white !important;
+    color: #212529;
+}
+
 .how-icon {
     margin: 0 auto;
     width: 100%;
@@ -159,12 +164,6 @@ body {
 .mobile-image-display {
     display: none;
     max-width: 400px;
-}
-
-.mood-blue {
-    /* background-color: #18b8d1; */
-    background-color: white;
-    color: #18b8d1;
 }
 
 .mood-blue-jumbo {
