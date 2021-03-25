@@ -98,6 +98,75 @@ body {
     color: darkgrey;
 }
 
+.directory-banner-text {
+    position: absolute;
+    font-family: 'PlayfairDisplay', serif;
+    letter-spacing: 1px;
+    font-size: 74px;
+    white-space: nowrap;
+    color: white;
+}
+
+.directory-banner-text-1 {
+    bottom: 22%;
+    right:3%;
+}
+
+.directory-card {
+    background-color: rgb(24, 184, 208);
+    border-radius: 30px;
+    padding: 30px;
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.directory-card-button:link {
+    color: rgb(24, 184, 208);
+    text-decoration: none;
+}
+
+.directory-card-button:active {
+    color: rgb(24, 184, 208);
+    text-decoration: none;
+}
+
+.directory-card-button:visited {
+    color: rgb(24, 184, 208);
+    text-decoration: none;
+}
+
+.directory-card-button:hover {
+    color: rgb(24, 184, 208);
+    text-decoration: none;
+}
+
+.directory-card-button-div {
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.directory-card-content {
+    max-width: 480px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.directory-card-image {
+    background-color: white;
+}
+
+.directory-card-text {
+    font-size: 18px;
+    color: white;
+}
+
 .footer {
     flex-shrink: 0;
     color: white;
@@ -146,6 +215,13 @@ body {
     font-size: 18px;
     color: #056877;
     text-decoration: none;
+}
+
+.maitri-logos {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px;
+    display: block;
 }
 
 .media-banner-text {
@@ -201,6 +277,13 @@ body {
 
 .phone-image {
     max-width: 280px;
+}
+
+.rise-logo {
+    height: 200px; 
+    width: 100%; 
+    margin: 0 auto; 
+    object-fit: cover;
 }
 
 .sub-header {
@@ -298,11 +381,6 @@ body {
         text-align: center;
     }
 
-    .affiliate-banner-text {
-        font-size: 22px;
-        letter-spacing: normal;
-    }
-
     .about-banner-text {
         font-size: 36px;
     }
@@ -314,6 +392,7 @@ body {
 
     .affiliate-banner-text {
         font-size: 19px;
+        letter-spacing: normal;
     }
 
     .affiliate-banner-text-1 {
@@ -336,6 +415,16 @@ body {
 
     .desktop-image-display {
         display: none;
+    }
+
+    .directory-banner-text {
+        font-size: 19px;
+        letter-spacing: normal;
+    }
+
+    .directory-banner-text-1 {
+        bottom: 19%;
+        right:4%;
     }
 
     .media-banner-text {
@@ -454,6 +543,15 @@ body {
         display: none;
     }
 
+    .directory-banner-text {
+        font-size: 22px;
+    }
+
+    .directory-banner-text-1 {
+        bottom: 19%;
+        right:5%;
+    }
+
     .media-banner-text {
         font-size: 46px;
     }
@@ -560,6 +658,10 @@ body {
         display: none;
     }
 
+    .directory-banner-text {
+        font-size: 35px;
+    }
+
     .media-banner-text {
         font-size: 50px;
     }
@@ -640,6 +742,10 @@ body {
         font-size: 44px;
     }
 
+    .directory-banner-text {
+        font-size: 46px;
+    }
+
     .media-banner-text {
         font-size: 70px;
     }
@@ -706,6 +812,10 @@ body {
 
     .display-4 {
         font-size: 50px;
+    }
+
+    .directory-banner-text {
+        font-size: 60px;
     }
 
     .media-banner-text {
