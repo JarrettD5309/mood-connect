@@ -64,6 +64,22 @@ body {
     padding: 0 8px;
 }
 
+.btn__container {
+    margin: 100px auto;
+}
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited,
+.btn-secondary:focus {
+    padding: 12px 28px;
+    border: none;
+    background-color:hsla(337, 83%, 18%, 0.877);
+    font-size: 30px;
+    border-radius: 35px;
+    margin-bottom: 20px;
+    outline: none;
+}
 .btn-mood {
     color: white;
     background-color: #18b8d1;
@@ -641,7 +657,7 @@ body {
 
     .banner-fit {
         object-fit: cover;
-        height: 40vh;
+        height: 30vh;
         width: 100vw;
         max-width: 1300px;
     }
@@ -801,7 +817,7 @@ body {
 
     .banner-fit {
         object-fit: cover;
-        height: 40vh;
+        height: 30vh;
         width: 100vw;
         max-width: 1300px;
     }
@@ -856,9 +872,10 @@ body {
 
     .banner-fit {
         object-fit: cover;
-        height: 50vh;
+        height: 30vh;
         width: 100vw;
         max-width: 1300px;
+        
     }
 
     .display-4 {
@@ -880,9 +897,10 @@ body {
 
     .banner-fit {
         object-fit: cover;
-        height: 50vh;
+        height: 35vh;
         width: 100vw;
         max-width: 1300px;
+        height: 30vh;
     }
 
     .display-4 {
