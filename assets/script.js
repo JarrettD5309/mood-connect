@@ -80,7 +80,7 @@ const sendAffiliate = () => {
 };
 
 
-filterSelection("all")
+filterSelection("null")
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("filterBtn");
