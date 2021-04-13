@@ -307,7 +307,6 @@ body {
 
 .maitri-logos {
     margin: 0 auto;
-    width: 100%;
     max-width: 200px;
     display: block;
 }
@@ -899,6 +898,18 @@ body {
         font-size: 14px;
     }
 }
+@media (min-width: 850px){
+    .directory-card-text{
+        min-width: 300px;
+    }
+}
+
+@media (min-width: 900px){
+    .directory-card-text{
+        min-width: 325px;
+    }
+}
+
 
 @media(min-width: 1200px){
     .filterDrDwn{
