@@ -69,9 +69,8 @@ body {
     display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fill, 260px);
-    -webkit-column-gap: 10px;
-       -moz-column-gap: 10px;
-            column-gap: 10px;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
     row-gap: 10px;
     margin: 0 auto;
     justify-content: center;
@@ -88,9 +87,8 @@ body {
     display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fill, 260px);
-    -webkit-column-gap: 10px;
-       -moz-column-gap: 10px;
-            column-gap: 10px;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
     row-gap: 10px;
     padding-top: 10px;
     margin-bottom: 100px;
@@ -132,6 +130,16 @@ body {
     color: white;
     background-color: #18b8d1;
     border-color: #18b8d1;
+    font-size: 12px;
+}
+.btn-signup{
+    font-size: 20px;
+    padding-top: 8px;
+}
+.btn-home{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
 .cards{
     max-width: 1140;
@@ -141,11 +149,8 @@ body {
     grid-template-columns: repeat(2, 371px);
     row-gap: 50px;
     -moz-column-gap: 150px;
-    -webkit-column-gap: 150px;
             column-gap: 150px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
 }
 
 .container__text {
@@ -364,13 +369,48 @@ body {
 
 .phone-image {
     max-width: 280px;
+    align-items: center;
 }
+
+.pulse-button {
+    display: block;
+   
+    color: white;
+    border: none;
+    background: #5a99d4;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(#5a99d4, .5);
+    -webkit-animation: glowing 1300ms infinite;
+            animation: glowing 1300ms infinite;
+  }
+  .pulse-button:hover {
+    -webkit-animation: none;
+            animation: none;
+            background-color: rgb(24, 184, 208);
+  }
+ 
+  @-webkit-keyframes glowing {
+    0% {
+      background-color:#29b8ce;
+      box-shadow: 0 0 3px#29b8ce;
+    }
+    50% {
+      background-color: #07cbe9;
+      box-shadow: 0 0 10px  #07cbe9;
+    }
+    100% {
+      background-color: #18b8d1;
+      box-shadow: 0 0 3px #18b8d1;
+    }
+  }
+  
 
 .rise-logo {
     height: 200px; 
     width: 100%; 
     margin: 0 auto; 
-    object-fit: cover;
+    -o-object-fit: cover; 
+       object-fit: cover;
 }
 
 .sub-header {
@@ -727,7 +767,8 @@ body {
     }
 
     .banner-fit {
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
         height: 30vh;
         width: 100vw;
         max-width: 1300px;
@@ -815,7 +856,8 @@ body {
     }
 
     .banner-fit {
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
         height: 35vh;
         width: 100vw;
         max-width: 1300px;
@@ -886,7 +928,6 @@ body {
     .cards{
         grid-template-columns: repeat(2, 340px);
         -moz-column-gap: 100px;
-        -webkit-column-gap: 100px;
                 column-gap: 100px;
     }
 }
@@ -926,7 +967,8 @@ body {
     }
 
     .banner-fit {
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
         height: 35vh;
         width: 100vw;
         max-width: 1300px;
@@ -981,7 +1023,8 @@ body {
 @media (min-width: 1200px) and (max-width:1399px) {
 
     .banner-fit {
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
         height: 40vh;
         width: 100vw;
         max-width: 1300px;
@@ -1006,7 +1049,8 @@ body {
 @media (min-width: 1400px) {
 
     .banner-fit {
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
         height: 35vh;
         width: 100vw;
         max-width: 1300px;
