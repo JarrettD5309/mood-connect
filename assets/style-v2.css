@@ -503,6 +503,7 @@ body {
     display: none;
 }
 
+
 @media (max-width: 400px) {
     body {
         text-align: center;
@@ -630,6 +631,7 @@ body {
 
 }
 
+
 @media (min-width:401px) and (max-width: 575px) {
     body {
         text-align: center;
@@ -747,6 +749,17 @@ body {
         display: initial;
     }
 }
+@media (max-width: 575){
+    .btn-mood{
+    align-content: center;
+    }
+    .btn-container{
+        align-items: center;
+    }
+    .pulse-button {
+        
+    }
+}
 
 @media (min-width: 576px) and (max-width:767px) {
     body {
@@ -849,6 +862,12 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
     .affiliate-banner-text {
         font-size: 46px;
+    }
+    .btn-signup {
+        font-size: 17px;
+    }
+    #learn-more-button {
+        font-size: 17px;
     }
 
     .about-banner-text {

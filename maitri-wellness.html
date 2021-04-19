@@ -75,9 +75,6 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="maitri-wellness.html">maitri wellness</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aris-current="page" href="contact.html">Contact</a>
-                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="about.html" id="navbarAboutMeMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -87,6 +84,7 @@
                             <li><a class="dropdown-item" href="about.html">About Us</a></li>
                             <li><a class="dropdown-item" href="team.html">Our Team</a></li>
                             <li><a class="dropdown-item" href="affiliates.html">Affiliates/Partners</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -123,8 +121,16 @@
                 <button class="btn btn-secondary" type="button" onclick="filterSelection('yoga')">Yoga/Fitness</button>
                 <button class="btn btn-secondary" type="button" onclick="filterSelection('mental')">Mental
                     Health</button>
+                <button class="btn btn-secondary" type="button" onclick="filterSelection('finance')">Finance/Business
+                    Health</button>
+                <button class="btn btn-secondary" type="button" onclick="filterSelection('spiritual')">Spiritual
+                    Wellness</button>
+                <button class="btn btn-secondary" type="button" onclick="filterSelection('products')">Health
+                    Products</button>
+                <button class="btn btn-secondary" type="button" onclick="filterSelection('services')">Health
+                    Services</button>
             </div>
-            <div class="mx-auto btn__container2" id="myBtnContainer">
+            <!-- <div class="mx-auto btn__container2" id="myBtnContainer">
                 <button class="btn btn-secondary" type="button" onclick="filterSelection('finance')">Finance/Business
                     Health</button>
                 <button class="btn btn-secondary" type="button" onclick="filterSelection('spiritual')">Spiritual
@@ -133,6 +139,7 @@
                     Products</button>
 
             </div>
+        -->
 
 
             <div class="container button__container filterDrDwn" id="myBtnContainer">
@@ -163,6 +170,9 @@
                         </a>
                         <a class="dropdown-item" onclick="filterSelection('products')">
                             Health Products
+                        </a>
+                        <a class="dropdown-item" onclick="filterSelection('services')">
+                            Health Services
                         </a>
                     </div>
                 </div>
@@ -384,17 +394,18 @@
                                     <div>
                                         <div class='mt-2 directory-card-image'>
                                             <img src="./assets/images/partnersaffiliates/law-depot-banner2.png"
-                                                alt="Law Depot logo" class='maitri-logos' style="width:300px;height:200px;border:0">
+                                                alt="Law Depot logo" class='maitri-logos'
+                                                style="width:300px;height:200px;border:0">
                                         </div>
                                         <h4 class="mt-3 mb-3 text-white">Law Depot</h4>
                                     </div>
                                     <p class='directory-card-text'>Legal Services</p>
 
-                                    
+
                                     <a href="https://www.lawdepot.com/?pid=pg-ZSY1YP6V03-generaltextlink"
                                         class="directory-card-button" target="_blank">
-                                    <div class='directory-card-button-div'>20% off Online Legal Forms
-                                    </div>
+                                        <div class='directory-card-button-div'>20% off Online Legal Forms
+                                        </div>
                                     </a>
                                 </div>
                             </div>
@@ -414,17 +425,195 @@
                                         take control of mealtime, and health hacks to improve your child's health
                                         IMMEDIATELY.</p>
 
-                                    
-                                    <a href="mailto:ingridrlucas@gmail.com?subject=Maitri Wellness user"
+
+                                    <a href="mailto:ingridrlucas@gmail.com?subject=Maitri Wellness user" target="_blank"
                                         class="directory-card-button">
-                                    <div class='directory-card-button-div'>Learn More
-                                    </div>
+                                        <div class='directory-card-button-div'>Learn More
+                                        </div>
                                     </a>
                                 </div>
                             </div>
                         </div>
 
+                        <div class="text-center services filterBtn">
+                            <div class='directory-card'>
+                                <div class='directory-card-content'>
+                                    <div>
+                                        <div class='mt-2 directory-card-image'>
+                                            <img src="./assets/images/partnersaffiliates/lettuce-grow.jpeg"
+                                                alt="Lettuce Grow" class='maitri-logos'>
+                                        </div>
+                                        <h4 class="mt-3 mb-3 text-white">Lettuce Grow</h4>
+                                    </div>
+                                    <p class='directory-card-text'>Grow farm-fresh produce at home, no green thumb
+                                        required</p>
 
+
+                                    <a href="https://imp.i209368.net/c/2762755/829960/11183" target="_blank"
+                                        class="directory-card-button">
+                                        <div class='directory-card-button-div'>Learn More
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center services filterBtn">
+                            <div class='directory-card'>
+                                <div class='directory-card-content'>
+                                    <div>
+                                        <div class='mt-2 directory-card-image'>
+                                            <img src="./assets/images/partnersaffiliates/PTFood.jpeg"
+                                                alt="Personal Trainer" class='maitri-logos'>
+                                        </div>
+                                        <h4 class="mt-3 mb-3 text-white">Personal Trainer Food</h4>
+                                    </div>
+                                    <p class='directory-card-text'>Use code HEALTHY30 to save 30% off your first order!
+                                    </p>
+
+
+                                    <a href="https://personaltrainerfood.2gfm.net/c/2762755/720302/5146" target="_blank"
+                                        class="directory-card-button">
+                                        <div class='directory-card-button-div'>HEALTHY30 for 30% off
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center products filterBtn">
+                            <div class='directory-card'>
+                                <div class='directory-card-content'>
+                                    <div>
+                                        <div class='mt-2 directory-card-image'>
+                                            <img src="./assets/images/partnersaffiliates/foreyes.jpeg"
+                                                alt="For Eyes Logo" class='maitri-logos'>
+                                        </div>
+                                        <h4 class="mt-3 mb-3 text-white">For Eyes</h4>
+                                    </div>
+                                    <p class='directory-card-text'>Schedule an eye exam and get quality, stylish glasses
+                                        at an affordable price. </p>
+
+
+                                    <a href="https://foreyes.sjv.io/c/2762755/1037182/12705" target="_blank"
+                                        class="directory-card-button">
+                                        <div class='directory-card-button-div'>30% off Glasses
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center services filterBtn">
+                            <div class='directory-card'>
+                                <div class='directory-card-content'>
+                                    <div>
+                                        <div class='mt-2 directory-card-image'>
+                                            <img src="./assets/images/partnersaffiliates/tempo.png"
+                                                alt="Tempo Logo" class='maitri-logos'>
+                                        </div>
+                                        <h4 class="mt-3 mb-3 text-white">Tempo</h4>
+                                    </div>
+                                    <p class='directory-card-text'>Tempo is the first in home fitness to help you
+                                        understand what you're doing right (and wrong), with personalized feedback to
+                                        help you see progress with every workout.</p>
+
+
+                                    <a href="https://foreyes.sjv.io/c/2762755/1037182/12705" target="_blank"
+                                        class="directory-card-button">
+                                        <div class='directory-card-button-div'>Start as low as $69/month
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center products filterBtn">
+                            <div class='directory-card'>
+                                <div class='directory-card-content'>
+                                    <div>
+                                        <div class='mt-2 directory-card-image'>
+                                            <img src="./assets/images/partnersaffiliates/loving-foods.jpeg"
+                                                alt="Loving Foods Logo" class='maitri-logos'>
+                                        </div>
+                                        <h4 class="mt-3 mb-3 text-white">Loving Foods</h4>
+                                    </div>
+                                    <p class='directory-card-text'>Tempo is the first in home fitness to help you
+                                        understand what you're doing right (and wrong), with personalized feedback to
+                                        help you see progress with every workout.</p>
+
+
+                                    <a href="https://loving-foods.pxf.io/c/2762755/883979/12241" target="_blank"
+                                        class="directory-card-button">
+                                        <div class='directory-card-button-div'>Shop Loving Foods Now
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center products filterBtn">
+                            <div class='directory-card'>
+                                <div class='directory-card-content'>
+                                    <div>
+                                        <div class='mt-2 directory-card-image'>
+                                            <img src="./assets/images/partnersaffiliates/healist.jpeg"
+                                                alt="Healist Logo" class='maitri-logos'>
+                                        </div>
+                                        <h4 class="mt-3 mb-3 text-white">Healist</h4>
+                                    </div>
+                                    <p class='directory-card-text'>Potent natural ingredients. Down to a science.</p>
+
+
+                                    <a href="https://imp.i116782.net/c/2762755/796489/11326" target="_blank"
+                                        class="directory-card-button">
+                                        <div class='directory-card-button-div'>Get 20% off your purchase
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center products filterBtn">
+                            <div class='directory-card'>
+                                <div class='directory-card-content'>
+                                    <div>
+                                        <div class='mt-2 directory-card-image'>
+                                            <img src="./assets/images/partnersaffiliates/botanical.jpeg"
+                                                alt="Botanical Logo" class='maitri-logos'>
+                                        </div>
+                                        <h4 class="mt-3 mb-3 text-white">Pure Hemp Botanicals</h4>
+                                    </div>
+                                    <p class='directory-card-text'>At Pure Hemp Botanicals, We serve a growing community of evolving hearts and minds to produce sustainable, plant-based, vegan, and cruelty free products.</p>
+
+
+                                    <a href="https://pure-hemp-botanical.pxf.io/c/2762755/1032187/12752" target="_blank"
+                                        class="directory-card-button">
+                                        <div class='directory-card-button-div'>30% off products
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center products filterBtn">
+                            <div class='directory-card'>
+                                <div class='directory-card-content'>
+                                    <div>
+                                        <div class='mt-2 directory-card-image'>
+                                            <img src="./assets/images/partnersaffiliates/eume-bags.jpeg"
+                                                alt="Eume Bags Logo" class='maitri-logos'>
+                                        </div>
+                                        <h4 class="mt-3 mb-3 text-white">Eume Bags</h4>
+                                    </div>
+                                    <p class='directory-card-text'>World's first massager back pack Anti-theft, Patented, Anti-stress.</p>
+
+
+                                    <a href="https://eumeworld.com/" target="_blank"
+                                        class="directory-card-button">
+                                        <div class='directory-card-button-div'>Use Code MAITRI10 for 10% off
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
 
                     </div>
