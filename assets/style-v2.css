@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "PlayfairDisplay";
-	src: local("PlayfairDisplay"), url("./fonts/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+    font-family: "PlayfairDisplay";
+    src: local("PlayfairDisplay"), url("./fonts/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
 }
 
 html {
@@ -43,7 +43,7 @@ body {
 
 .affiliate-banner-text-1 {
     bottom: 22%;
-    right:7%;
+    right: 7%;
 }
 
 .affiliate-icon {
@@ -70,25 +70,26 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, 260px);
     -moz-column-gap: 10px;
-         column-gap: 10px;
+    column-gap: 10px;
     row-gap: 10px;
     margin: 0 auto;
     justify-content: center;
     margin-bottom: 10px;
-    
+
 }
-.button__container{
+
+.button__container {
     margin-bottom: 70px;
 }
 
-.btn__container2{
-   
+.btn__container2 {
+
     max-width: 920px;
     display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fill, 260px);
     -moz-column-gap: 10px;
-         column-gap: 10px;
+    column-gap: 10px;
     row-gap: 10px;
     padding-top: 10px;
     margin-bottom: 100px;
@@ -102,14 +103,15 @@ body {
 .btn-secondary:focus {
     padding: 12px 28px;
     border: none;
-    background-color:hsla(337, 83%, 18%, 0.877);
+    background-color: hsla(337, 83%, 18%, 0.877);
     font-size: 18px;
     border-radius: 35px;
     outline: none;
-    text-decoration: none;  
+    text-decoration: none;
     color: white;
-   
+
 }
+
 .btn__secondary,
 .btn__secondary:hover,
 .btn__secondary:active,
@@ -117,13 +119,13 @@ body {
 .btn__secondary:focus {
     padding: 12px 28px;
     border: none;
-    background-color:hsla(337, 83%, 18%, 0.877);
+    background-color: hsla(337, 83%, 18%, 0.877);
     font-size: 22px;
     border-radius: 35px;
     outline: none;
-    text-decoration: none;  
+    text-decoration: none;
     color: white;
-   
+
 }
 
 .btn-mood {
@@ -132,30 +134,37 @@ body {
     border-color: #18b8d1;
     font-size: 12px;
 }
-.btn-signup{
+
+.btn-signup {
     font-size: 20px;
-    padding-top: 8px;
+    text-decoration: none;
+    color: white;
+   line-height: 30px;
+
 }
-.btn-home{
+
+.btn-home {
     text-decoration: none;
     color: white;
     font-size: 18px;
 }
-.cards{
+
+.cards {
     max-width: 1140;
     margin: 0 auto;
     display: -ms-grid;
-    display: grid; 
+    display: grid;
     grid-template-columns: repeat(2, 371px);
     row-gap: 50px;
     -moz-column-gap: 150px;
-            column-gap: 150px;
+    column-gap: 150px;
     justify-content: center;
 }
 
 .container__text {
     margin-bottom: 50px;
 }
+
 .col-padding {
     padding: 0 20px;
 }
@@ -166,7 +175,7 @@ body {
     letter-spacing: 1px;
     font-size: 90px;
     color: white;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 .contact-banner-text-1 {
@@ -195,7 +204,7 @@ body {
 
 .directory-banner-text-1 {
     bottom: 22%;
-    right:3%;
+    right: 3%;
 }
 
 .directory-card {
@@ -260,6 +269,7 @@ body {
 .filterShow {
     display: flex;
 }
+
 .footer {
     flex-shrink: 0;
     color: white;
@@ -354,7 +364,7 @@ body {
     letter-spacing: 1px;
     font-size: 75px;
     color: white;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 10px 20px 14px 20px;
     /* border-radius: 4px; */
     text-align: left;
@@ -374,43 +384,48 @@ body {
 
 .pulse-button {
     display: block;
-   
     color: white;
     border: none;
     background: #5a99d4;
     cursor: pointer;
     box-shadow: 0 0 0 0 rgba(#5a99d4, .5);
     -webkit-animation: glowing 1300ms infinite;
-            animation: glowing 1300ms infinite;
-  }
-  .pulse-button:hover {
+    animation: glowing 1300ms infinite;
+    min-width: 200px;
+    margin: auto;
+    padding: 12px
+}
+
+.pulse-button:hover {
     -webkit-animation: none;
-            animation: none;
-            background-color: rgb(24, 184, 208);
-  }
- 
-  @-webkit-keyframes glowing {
+    animation: none;
+    background-color: rgb(24, 184, 208);
+}
+
+@-webkit-keyframes glowing {
     0% {
-      background-color:#29b8ce;
-      box-shadow: 0 0 3px#29b8ce;
+        background-color: #29b8ce;
+        box-shadow: 0 0 3px#29b8ce;
     }
+
     50% {
-      background-color: #07cbe9;
-      box-shadow: 0 0 10px  #07cbe9;
+        background-color: #07cbe9;
+        box-shadow: 0 0 10px #07cbe9;
     }
+
     100% {
-      background-color: #18b8d1;
-      box-shadow: 0 0 3px #18b8d1;
+        background-color: #18b8d1;
+        box-shadow: 0 0 3px #18b8d1;
     }
-  }
-  
+}
+
 
 .rise-logo {
-    height: 200px; 
-    width: 100%; 
-    margin: 0 auto; 
-    -o-object-fit: cover; 
-       object-fit: cover;
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 .sub-header {
@@ -444,7 +459,7 @@ body {
     letter-spacing: 1px;
     font-size: 90px;
     color: white;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 .thank-you-contact-banner-text-1 {
@@ -458,7 +473,7 @@ body {
     font-family: 'PlayfairDisplay', serif;
     letter-spacing: 1px;
     font-size: 90px;
-    color:black;
+    color: black;
     /* transform: translate(-50%,-50%); */
 }
 
@@ -482,8 +497,8 @@ body {
 }
 
 .work-banner-text-1 {
-    top:12%;
-    left:10%
+    top: 12%;
+    left: 10%
 }
 
 #founder-image-mobile {
@@ -525,7 +540,7 @@ body {
 
     .affiliate-banner-text-1 {
         bottom: 12%;
-        right:6%;
+        right: 6%;
     }
 
     .brand-logos {
@@ -533,6 +548,13 @@ body {
         padding: 0 8px;
     }
 
+    .pulse-button {
+        padding: 10px 4px
+    }
+  
+   .col-7{
+       width: 250px
+   }
     .contact-banner-text {
         font-size: 40px;
     }
@@ -552,7 +574,7 @@ body {
 
     .directory-banner-text-1 {
         bottom: 19%;
-        right:4%;
+        right: 4%;
     }
 
     .media-banner-text {
@@ -617,8 +639,8 @@ body {
     }
 
     .work-banner-text-1 {
-        top:12%;
-        left:7%
+        top: 12%;
+        left: 7%
     }
 
     #our-mission {
@@ -628,6 +650,10 @@ body {
     #our-mission-mobile {
         display: initial;
     }
+    #learn-more-button {
+        font-size: 14px;
+    }
+
 
 }
 
@@ -652,7 +678,7 @@ body {
 
     .affiliate-banner-text-1 {
         bottom: 12%;
-        right:6%;
+        right: 6%;
     }
 
     .brand-logos {
@@ -678,7 +704,7 @@ body {
 
     .directory-banner-text-1 {
         bottom: 19%;
-        right:5%;
+        right: 5%;
     }
 
     .media-banner-text {
@@ -737,8 +763,11 @@ body {
     }
 
     .work-banner-text-1 {
-        top:12%;
-        left:8%
+        top: 12%;
+        left: 8%
+    }
+    #learn-more-button {
+        font-size: 16px;
     }
 
     #our-mission {
@@ -749,21 +778,32 @@ body {
         display: initial;
     }
 }
-@media (max-width: 575){
-    .btn-mood{
-    align-content: center;
-    }
-    .btn-container{
+
+@media (max-width: 575px) {
+
+    .btn-container {
         align-items: center;
     }
+
+    .btn-container {
+        padding-bottom: 30px;
+    }
+
     .pulse-button {
-        
+        margin-top: 30px;
+    }
+
+    .btn-signup {
+        font-size: 16px;
     }
 }
 
 @media (min-width: 576px) and (max-width:767px) {
     body {
         text-align: center;
+    }
+    .phone-image {
+        margin-top: 30px;
     }
 
     .affiliate-banner-text {
@@ -781,12 +821,14 @@ body {
 
     .banner-fit {
         -o-object-fit: cover;
-           object-fit: cover;
+        object-fit: cover;
         height: 30vh;
         width: 100vw;
         max-width: 1300px;
     }
-
+    .btn-signup {
+        line-height: 32px;
+    }
     .contact-banner-text {
         font-size: 50px;
     }
@@ -863,9 +905,12 @@ body {
     .affiliate-banner-text {
         font-size: 46px;
     }
+
     .btn-signup {
         font-size: 17px;
+        line-height: 26px
     }
+
     #learn-more-button {
         font-size: 17px;
     }
@@ -876,7 +921,7 @@ body {
 
     .banner-fit {
         -o-object-fit: cover;
-           object-fit: cover;
+        object-fit: cover;
         height: 35vh;
         width: 100vw;
         max-width: 1300px;
@@ -937,45 +982,51 @@ body {
     }
 }
 
-@media (max-width: 1199px){
-    .btn__container{
+@media (max-width: 1199px) {
+    .btn__container {
         display: none;
     }
-    .btn__container2{
+
+    .btn__container2 {
         display: none;
     }
-    .cards{
+
+    .cards {
         grid-template-columns: repeat(2, 340px);
         -moz-column-gap: 100px;
-                column-gap: 100px;
+        column-gap: 100px;
     }
 }
-@media (max-width: 850px){
-    .cards{
+
+@media (max-width: 850px) {
+    .cards {
         grid-template-columns: repeat(1, 300px);
     }
-    .directory-card-text{
+
+    .directory-card-text {
         font-size: 14px;
     }
 }
-@media (min-width: 850px){
-    .directory-card-text{
+
+@media (min-width: 850px) {
+    .directory-card-text {
         min-width: 300px;
     }
 }
 
-@media (min-width: 900px){
-    .directory-card-text{
+@media (min-width: 900px) {
+    .directory-card-text {
         min-width: 325px;
     }
 }
 
-@media(min-width: 1200px){
-    .filterDrDwn{
+@media(min-width: 1200px) {
+    .filterDrDwn {
         display: none;
     }
 }
-@media (min-width: 992px) and (max-width: 1199px) { 
+
+@media (min-width: 992px) and (max-width: 1199px) {
 
     .about-banner-text {
         font-size: 85px;
@@ -987,7 +1038,7 @@ body {
 
     .banner-fit {
         -o-object-fit: cover;
-           object-fit: cover;
+        object-fit: cover;
         height: 35vh;
         width: 100vw;
         max-width: 1300px;
@@ -1043,11 +1094,11 @@ body {
 
     .banner-fit {
         -o-object-fit: cover;
-           object-fit: cover;
+        object-fit: cover;
         height: 40vh;
         width: 100vw;
         max-width: 1300px;
-        
+
     }
 
     .display-4 {
@@ -1069,7 +1120,7 @@ body {
 
     .banner-fit {
         -o-object-fit: cover;
-           object-fit: cover;
+        object-fit: cover;
         height: 35vh;
         width: 100vw;
         max-width: 1300px;
@@ -1088,12 +1139,12 @@ body {
     .sub-header {
         font-size: 29px;
     }
-    
+
 
 }
 
 @media (max-width: 1400px) {
-    .btn-secondary{
+    .btn-secondary {
         font-size: 18px;
     }
 }
