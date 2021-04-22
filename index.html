@@ -9,11 +9,48 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-E7WRZE27RH"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'G-E7WRZE27RH');
     </script>
+    <!-- Diginius Analytics Begins -->
+    <script type="text/javascript">
+        ;
+        (function (p, l, o, w, i, n, g) {
+            if (!p[i]) {
+                p.GlobalSnowplowNamespace = p.GlobalSnowplowNamespace || [];
+                p.GlobalSnowplowNamespace.push(i);
+                p[i] = function () {
+                    (p[i].q = p[i].q || []).push(arguments)
+                };
+                p[i].q = p[i].q || [];
+                n = l.createElement(o);
+                g = l.getElementsByTagName(o)[0];
+                n.async = 1;
+                n.src = w;
+                g.parentNode.insertBefore(n, g)
+            }
+        }(window, document, "script", "//d1fc8wv8zag5ca.cloudfront.net/2.4.0/sp.js", "diginius"));
+
+        window.diginius('newTracker', 'cf', 'd2zinxbvgvxnpa.cloudfront.net', {
+            appId: 'BPAASpMTo3ZcdiKAIgmi9TtPUtG3',
+            platform: 'web',
+            contexts: {
+                geolocation: false,
+                performanceTiming: true,
+                gaCookies: true
+            }
+        });
+
+        window.diginius('enableLinkClickTracking');
+        window.diginius('enableActivityTracking', 5, 10);
+        window.diginius('trackPageView');
+    </script>
+    <!-- Diginius Analytics Ends -->
 
     <!-- Google Tag Manager 
     <script>(function (w, d, s, l, i) {
@@ -74,7 +111,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="maitri-wellness.html">maitri wellness</a>
                     </li>
-                    
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="about.html" id="navbarAboutMeMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -83,7 +120,7 @@
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarAboutMeMenuLink">
                             <li><a class="dropdown-item" href="about.html">About Us</a></li>
                             <li><a class="dropdown-item" href="team.html">Our Team</a></li>
-                            <li><a class="dropdown-item" href="affiliates.html" >Affiliates/Partners</a></li>
+                            <li><a class="dropdown-item" href="affiliates.html">Affiliates/Partners</a></li>
                             <li><a class="dropdown-item" href="contact.html">Contact</a></li>
                         </ul>
                     </li>
@@ -113,7 +150,8 @@
                             <a href="how-it-works.html" class="btn btn-mood" id="learn-more-button">Learn More</a>
                         </div>
                         <div class="col-7 btn btn-mood pulse-button">
-                            <a class="btn-signup" href="https://utqmb6auo6c.typeform.com/to/gPdjQ7iq" target="_blank">Sign up to be an early user</a> 
+                            <a class="btn-signup" href="https://utqmb6auo6c.typeform.com/to/gPdjQ7iq"
+                                target="_blank">Sign up to be an early user</a>
                         </div>
                     </div>
                 </div>
@@ -208,8 +246,8 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
