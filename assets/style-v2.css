@@ -74,7 +74,7 @@ body {
     row-gap: 10px;
     margin: 0 auto;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 
 }
 
@@ -150,14 +150,14 @@ body {
 }
 
 .cards {
-    max-width: 1140;
+    max-width: 1200;
     margin: 0 auto;
     display: -ms-grid;
     display: grid;
-    grid-template-columns: repeat(2, 371px);
-    row-gap: 50px;
-    -moz-column-gap: 150px;
-    column-gap: 150px;
+    grid-template-columns: repeat(3, 350px);
+    row-gap: 30px;
+    -moz-column-gap: 60px;
+    column-gap: 60px;
     justify-content: center;
 }
 
