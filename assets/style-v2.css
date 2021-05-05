@@ -431,7 +431,20 @@ body {
 .sub-header {
     font-size: 22px;
 }
+.spotify {
+    width: 65%;
+}
+.tune {
+    display: flex; 
+    flex-direction: column;
+    max-width: 200px;
+    margin-left: 50px;
+    padding-bottom: 20px;
 
+}
+.tune-text{
+    padding-top: 30px;
+}
 .team-banner-text {
     position: absolute;
     font-family: 'PlayfairDisplay', serif;
