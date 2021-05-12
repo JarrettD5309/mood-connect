@@ -111,15 +111,53 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
-/*
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
+
+let popup = document.querySelector(".popup");
+let popupClose = document.querySelector(".popup__close");
+const formElement = document.querySelector('#signup-form'); 
+
+
+function handleEscClose(evt) {
+  if (evt.key === 'Escape') {
+      closePopup();
+  }
 }
-*/
+
+//popup closing function
+function closePopup() {
+popup.classList.add('popup_closed');
+  document.removeEventListener('keyup', handleEscClose);
+};
+popup.addEventListener('click', (evt) => {
+  if (evt.target.matches('.popup__close') || evt.target.matches('.popup')) {
+    closePopup();
+  }
+});
+
+popupClose.addEventListener('click', closePopup);
+
+function formSubmit(evt){
+  evt.preventDefault();
+  closePopup();
+}
+formElement.addEventListener('submit', formSubmit); 
+
+$(document).ready(function() {
+
+  if ($.cookie('subscribed') == 'yes') {
+    $('#signup-popup').addClass('popup_closed');
+  }
+
+  $(function(){
+    $("#mc-embedded-subscribe").on("click", function(){
+        if ( $('#mce-success-response:visible') ) {
+            $.cookie('subscribed', 'yes', {expires: 7 });
+        }
+    });
+    
+    $("#subscribed").on("click", function(){
+          $.cookie('subscribed', 'yes', {expires: 7 });
+          $('#signup-popup').hide();
+    });
+  }); 
+});
