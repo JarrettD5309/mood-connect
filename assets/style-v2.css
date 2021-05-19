@@ -193,6 +193,9 @@ body {
     color: darkgrey;
 }
 
+.div-size{
+    min-height: 413px;
+}
 .directory-banner-text {
     position: absolute;
     font-family: 'PlayfairDisplay', serif;
