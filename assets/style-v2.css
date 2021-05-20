@@ -290,7 +290,7 @@ body {
 
 .image {
     width: 100%;
-    max-height: 525px;
+    height: 525px;
 }
 
 .jumbotron {
@@ -1022,7 +1022,7 @@ body {
         padding-top: 20px;
     }
     .image {
-   
+        height: 425px;
     }
 }
 
@@ -1132,7 +1132,7 @@ body {
         font-size: 80px;
     }
     .image {
-        
+        height: 425px;
     }
 }
 
