@@ -193,9 +193,6 @@ body {
     color: darkgrey;
 }
 
-.div-size{
-    min-height: 413px;
-}
 .directory-banner-text {
     position: absolute;
     font-family: 'PlayfairDisplay', serif;
@@ -293,6 +290,7 @@ body {
 
 .image {
     width: 100%;
+    height: 100%;
 }
 
 .jumbotron {
