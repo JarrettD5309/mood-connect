@@ -103,7 +103,7 @@ body {
 .btn-secondary:focus {
     padding: 12px 28px;
     border: none;
-    background-color: hsla(337, 83%, 18%, 0.877);
+    background-color: #18b8d1;
     font-size: 18px;
     border-radius: 35px;
     outline: none;
@@ -119,7 +119,7 @@ body {
 .btn__secondary:focus {
     padding: 12px 28px;
     border: none;
-    background-color: hsla(337, 83%, 18%, 0.877);
+    background-color: #18b8d1;
     font-size: 22px;
     border-radius: 35px;
     outline: none;
